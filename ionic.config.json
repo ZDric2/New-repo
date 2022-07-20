@@ -1,0 +1,7 @@
+{
+  "name": "DRIC",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
