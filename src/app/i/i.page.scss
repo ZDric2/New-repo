@@ -45,33 +45,34 @@ a:hover {
 
 .right
 {
-    float: left;
+    float: inline-start;
     margin-bottom: 80px;
     margin-top: 0px;
-    padding-left: 40px;
-    /*margin-right: -30px;
-    margin-left: 50%;*/
+    padding-left: 10px;
+    /*margin-right: -20px;
+    margin-left: 14%;*/
     height: auto;
-    width: 100%;
-    background-color: black;
+    width: 99%;
+    background-color: rgb(41, 35, 35);
     }
 
-/*.left
+.left
 {
     float: left;
     margin-top: 50px;
-    /*margin-right: -90px;
+    margin-right: -90px;
     height: relative;
     width: 10%;
     background-color: #4160E8;
-    }*/
+    }
     
 #footer
 {
     height:40px;
     clear:both;
     position: relative;
-    background-color: #C1E3E1;
+    width: 99%;
+    background-color: rgb(152, 183, 240);
     }
     
 h3
@@ -127,3 +128,4 @@ td
       padding: 45px;
       margin-top: 70px;
     }
+    
