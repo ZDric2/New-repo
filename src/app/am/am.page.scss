@@ -1,15 +1,15 @@
 div
 {
-    border-radius: 5px;
+    border-radius: 1px;
     }
 #header
 {
     position: auto;
-    z-index: 1;
+    z-index: 0;
     height:50px;
     width: 100%;
-    background-color: #000000;
-    margin-bottom: 10px;
+    background-color: #2b0404;
+    margin-bottom: 0px;
     }
 
 #name {
@@ -46,31 +46,36 @@ a:hover {
 .right
 {
     float: inline-start;
-    margin-bottom: 80px;
-    margin-top: 0px;
+    margin-bottom: 90px;
     padding-left: 10px;
     /*margin-right: -20px;
     margin-left: 14%;*/
     height: auto;
     width: 99%;
     background-color: rgb(41, 35, 35);
+    padding-bottom: 5%;
     }
 
 .left
 {
-    float: left;
-    margin-top: 50px;
-    margin-right: -90px;
-    height: relative;
-    width: 10%;
-    background-color: #4160E8;
+    float: inline-end;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-block-end: 0px;
+    /*margin-right: -20px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: rgb(41, 35, 35);
     }
     
 #footer
 {
-    height: 40px;
+    height: 20px;
     clear:both;
     position: relative;
+    top: 5px; left: 2px;
     width: 99%;
     background-color: rgb(152, 183, 240);
     
@@ -80,43 +85,8 @@ h3
 {
     color: #ffddca;
     text-decoration: underline;
-    }
-
-#job-responsibilities
-{
-    padding: 1px;
-    }
-.job-title
-{
-    font-weight: bold;
-    }
-table
-{
-    border: 1px dashed black;
-    }
-td
-{
-    padding: 2px;
-    border: 1px solid #E88741;
-    }
-
-#course-name
-{
-    font-weight:bold;
-    }
-
-#company-name
-{
-    height:2px;
-    text-decoration:underline;
-    }
-#job-title
-{
-    height: 5px;
-    }
-.job-duration
-{
-    float:right;
+    font-family: math;
+    font-size: x-large;
     }
 #heading
 {
@@ -134,13 +104,30 @@ td
       
         height: auto;
         width: auto;
-        padding: 200px;
+        padding: 190px;
         background-image: url('https://batstate-u.edu.ph/wp-content/uploads/2020/10/Mabini.jpg');
-        background-repeat: repeat;
+        background-repeat: round;
         background-size: cover;
         border-top: solid 1em #af0303;
+        margin-right: 1.5%;
+        margin-left: 0.1%;
+        
     }
     h4 {
         text-decoration: underline;
         color: #F1C863;
     }
+    p1
+{
+  color: #e0fafa;
+  font-family: Georgia, serif;
+  font-size: large;
+  position: relative;
+}  
+h5
+{
+    text-decoration: underline;
+    color: #ffddca;
+    font-family: math;
+    font-size: x-large;
+}

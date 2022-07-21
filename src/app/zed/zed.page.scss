@@ -46,29 +46,31 @@ a:hover {
 .right
 {
     float: inline-start;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-block-end: 20px;
-    /*margin-right: -20px;
-    margin-left: 14%;*/
+    margin-bottom: 1px;
+    margin-top: 0px;
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-block-end: 5px;
     height: auto;
-    width: 99%;
+    width: 100%;
     background-color: rgb(27, 14, 14);
+    text-align: justify;
     }
 
 .left
 {
     float: inline-end;
-    margin-bottom: 30px;
     margin-top: 0px;
-    padding-left: 10px;
+    margin-bottom: 25px;
+    padding-top: 1%;
+    padding-left: 5px;
+    padding-right: 10px;
     padding-block-end: 100px;
-    /*margin-right: -20px;
-    margin-left: 14%;*/
     height: auto;
-    width: 99%;
+    width: 100%;
     background-color: rgb(27, 14, 14);
+    text-align: justify;
     }
     
 #footer
@@ -76,7 +78,7 @@ a:hover {
     height: 20px;
     clear:both;
     position: relative;
-    width: 98%;
+    width: 100%;
     background-color: rgb(152, 183, 240);
     
     }
@@ -149,10 +151,6 @@ td
         text-decoration: underline;
         color: #F1C863;
     }
-    /*PEN STYLES*/
-
-* 
-  
   body {
     background: #000000;
     margin: 0px;
